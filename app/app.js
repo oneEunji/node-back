@@ -1,5 +1,12 @@
 "use strict";
 
+
+const users = {
+    id: ["test", "나개발", "eunji"],
+    psword: ["1234", "1234", "2134"],
+};
+
+
 //모듈
 const express = require("express");
 const bodyParser = require("body-parser");
