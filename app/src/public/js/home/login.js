@@ -14,5 +14,15 @@ function login(){
     };
     console.log(id.value);
     console.log(req);
+    console.log(JSON.stringify(req));
+    
+    fetcgh("/login" , {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(req),
+    });
+
 }
 
